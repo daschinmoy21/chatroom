@@ -1,0 +1,32 @@
+# Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+psycopg2-binary>=2.9.9  # For PostgreSQL support
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6  # For handling form data
+
+# Environment & Config
+python-dotenv>=1.0.0
+pydantic>=2.4.2
+pydantic-settings>=2.0.3
+
+# Utilities
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+httpx>=0.25.0  # For async HTTP testing
+
+# Development Tools
+black>=23.10.0  # Code formatting
+flake8>=6.1.0   # Linting
+isort>=5.12.0   # Import sorting 
