@@ -21,7 +21,7 @@ A Discord clone built with Flutter, featuring real-time chat functionality and a
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/discord-clone.git
+git clone https://github.com/daschinmoy21/chatroom.git
 cd discord-clone
 ```
 
